@@ -9,7 +9,7 @@
  *
  *      	Datum:	  	 Author:		 Kommentar:
  *			-----------	 --------------	 -------------------
- *			08.02.2017	 Kevin Perillo	 erstellt.
+ *			08.02.2017	 MootSeeker	 erstellt.
  *
  ***********************************************************************************/
 
@@ -182,7 +182,7 @@ struct ball
 	   {
          comp.x = float ( width - comp.size - 2 );
        }
-// Schauen, dass der Ball seine max geschwindigkeit micht überschreitet.
+// Schauen, dass der Ball seine max geschwindigkeit micht Ã¼berschreitet.
        if ( b.vx < -maxSpeed )  
 	   {
          b.vx = -maxSpeed;
@@ -241,7 +241,7 @@ struct ball
        p.X = int ( width / 2 - 16 );
        p.Y = int ( height / 1.5f );
        SetConsoleCursorPosition( hOut, p );
-       cout << "Space drücken um zu starten...";
+       cout << "Space drÃ¼cken um zu starten...";
        if ( GetAsyncKeyState(VK_SPACE) ) 
 	   {
          COORD p;
